@@ -40,7 +40,7 @@ export const GameSelect = () => {
       <div className="position-absolute" style={{right:"10px",top: "6px"}}>
            {!isSaved ? (
               <Button    className="w-fit" variant="primary" onClick={handleShow}>
-                Open Form
+                Add Info
               </Button>
             ) : (
               <h5 className="text-white">{username}</h5>
